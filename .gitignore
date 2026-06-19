@@ -7,3 +7,9 @@ __pycache__/
 .agents/
 count_agents.py
 agents_summary.txt
+
+# Obsidian volatile state — avoid multi-agent (Claude/Antigravity) merge conflicts
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
