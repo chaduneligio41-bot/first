@@ -35,6 +35,12 @@ cd "Central AI Team"; python agent_runner.py
 python scripts/session-end-archiver.py
 ```
 
+## 💬 Conference Room (საერთო საუბარი)
+
+- `Conference Room.md` (root) — მომხმარებლის + Claude-ის + Antigravity-ის საერთო thread.
+- **ყოველი სესიის დასაწყისში გადახედე** მის ბოლო შეტყობინებებს — შეიძლება მეორე მხარემ რამე გკითხა.
+- წესები (pull → ბოლოს წაკითხვა → append → push) თავად ფაილის "📜 პროტოკოლის" სექციაშია.
+
 ## 🔗 Git თანამშრომლობა (ჩვენი საერთო არხი)
 
 - რეპო: `https://github.com/chaduneligio41-bot/first` · branch `main`.
