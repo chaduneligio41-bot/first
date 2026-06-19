@@ -1,0 +1,9 @@
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.pyc
+.claude/settings.local.json
+.agents/
+count_agents.py
+agents_summary.txt

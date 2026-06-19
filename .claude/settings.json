@@ -1,0 +1,8 @@
+{
+  "worktree": {
+    "bgIsolation": "none"
+  },
+  "enabledPlugins": {
+    "last30days@last30days-skill": true
+  }
+}
