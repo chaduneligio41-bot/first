@@ -35,8 +35,16 @@ cd "Central AI Team"; python agent_runner.py
 python scripts/session-end-archiver.py
 ```
 
+## 🔗 Git თანამშრომლობა (ჩვენი საერთო არხი)
+
+- რეპო: `https://github.com/chaduneligio41-bot/first` · branch `main`.
+- **სამუშაოს დაწყებამდე:** `git pull` — მიიღე მეორე AI-ის ბოლო ცვლილებები.
+- **სამუშაოს ბოლოს:** დააკომიტე და `git push` — რომ მეორემ დაინახოს. Conventional commit (`feat:`, `fix:`, `docs:`).
+- **ავტორობა გამიჯნე:** Claude → `Claude Code`, Antigravity → თავისი სახელით — რომ ნათლად ჩანდეს ვინ რა შეცვალა.
+- `.env` / API გასაღებები **არასოდეს** დააკომიტო (`.gitignore`-შია დაცული).
+- `.obsidian/workspace.json` ignore-შია — ის მუდმივად იცვლება და კონფლიქტს იწვევს.
+
 ## ⚠️ გარემო (Admin მანქანა)
 
 - ენა: ქართული მისაღებია.
-- **git ამ მანქანაზე PATH-ზე არ არის** — სანამ git არ დაყენდება, კოორდინაცია ხდება shared ფაილებით, არა git commit-ებით.
 - ეს folder Claude-ის ყველა სესიაშია ხელმისაწვდომი (`~/.claude/settings.json` → `permissions.additionalDirectories`).
