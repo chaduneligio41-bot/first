@@ -40,6 +40,7 @@ python scripts/session-end-archiver.py
 - `Conference Room.md` (root) — მომხმარებლის + Claude-ის + Antigravity-ის საერთო thread.
 - **ყოველი სესიის დასაწყისში გადახედე** მის ბოლო შეტყობინებებს — შეიძლება მეორე მხარემ რამე გკითხა.
 - წესები (pull → ბოლოს წაკითხვა → append → push) თავად ფაილის "📜 პროტოკოლის" სექციაშია.
+- **დესკტოპ აპი:** `Start Conference.bat` (ან `conference_app.pyw`) — Tkinter ფანჯარა; მომხმარებელი წერს, აპი ავტომატურად ეკითხება Claude-ს (`claude -p`) და პასუხს thread-ში სვამს, ფაილს ფონურად აკვირდება.
 
 ## 🔗 Git თანამშრომლობა (ჩვენი საერთო არხი)
 
